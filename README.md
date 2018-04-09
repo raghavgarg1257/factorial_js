@@ -8,11 +8,11 @@ Now simple solution would be to use `for loop` to actually make the computation.
 
 But say because of some constraint you are not allowed to use that and you have to use recursive function, what changes you would do to it?
 
-We can defer(async) it and rather than filling up our `call_stack` we can fill our `callback_queue`, virtually they have same memory as your hard disk. We can do this using either callback(through `setTimeout`) or `Promise`.
+We can defer(async) it and rather than filling up our `call_stack` we can fill our `callback_queue`, virtually queues have same memory as your hard disk. We can do this using either callback(through `setTimeout`) or `Promise`.
 
-**Callback (setTimeout):** You can find the code in [factorial_timeout.js](https://github.com/raghavgarg1257/factorial_js/blob/master/factorial_timeout.js)
+**Callback (setTimeout):** You can find the code in [factorial_timeout.js](https://github.com/raghavgarg1257/factorial_js/blob/master/factorial_timeout.js).
 
-**Promise:** You can find the code in [factorial_promise.js](https://github.com/raghavgarg1257/factorial_js/blob/master/factorial_promise.js)
+**Promise:** You can find the code in [factorial_promise.js](https://github.com/raghavgarg1257/factorial_js/blob/master/factorial_promise.js).
 
 
 ### To run
